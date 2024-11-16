@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+nav{
+    background: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+    position: fixed;
+    
+}
+  nav .menu{
+    display: inline-block;
+  }
+nav .menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff2b85;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px;
+}
+   nav .menu a:hover{
+    background: rgb(109, 78, 78);
+   }
+
+.menu button{
+  width: 103px;
+  height: 31px;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(yellow,red);     
+}
+  .menu button:hover{
+    background: gray
+   }
+ .banner{
+    background: url(../image/food\ panda\ image.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+ }
+  .banner h2{
+  
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    color: white;
+    background: black;
+    position: relative;
+    top: 200px;
+    width: 45%;
+    margin: auto;
+    text-transform: uppercase;
+  }
+  .banner.search {
+    position: relative;
+    top: 201px;
+   
+  }      
+  .banner.search input{
+    width: 32px;
+    height:35px;
+    border: none;
+
+    outline: none;
+    font-size:22px;
+    margin-left: 24px;
+  }
+  .news{
+    background: #ff2b85;
+    width: 100%;
+    height: 50px;
+    
+    
+
+  }
+  .news marquee{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 50px;
+  }
+  .about{
+    padding: 100px 200px;
+    text-align: center;
+  }
+  .about h2{
+            text-transform: uppercase;
+            font-size: 30px;
+            letter-spacing: 4px;
+            word-spacing: 2px;
+            text-shadow: 3px 3px 3px rebeccapurple;
+            margin-bottom: 10px;
+  }
+  .about p{
+      font-family: monospace;
+      letter-spacing: 1px;
+      line-height: 23px;
+      margin-bottom: 10px;
+  }
+  .about button{
+    width: 171px;
+    height: 47px;
+    background: #ff2b85;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+  }
+  .press{
+    padding: 150px 200px;
+    text-align: center;
+    background: url(../image/food\ panda\ image.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  .press h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+    text-shadow: 3px 3px 3px rebeccapurple;
+    margin-bottom: 10px;
+  }
+
+  .press p{
+  line-height: 26px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  background: black;
+  color: white;
+  }
+
+  .press button{
+    width: 171px;
+    height: 47px;
+    background: #ff2b85;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+  }
+
+  .team{
+    padding: 100px 200px;
+    text-align: center;
+    background: url(../image/food\ panda\ image.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .team h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    text-shadow: 3px 3px 3px rebeccapurple;
+    margin-bottom: 10px;
+  }
+
+  .team p{
+  line-height: 26px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  background: black;
+  color: white;
+  }
+  .team button{
+    width: 171px;
+    height: 47px;
+    background: #ff2b85;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+  }
+  .contact{
+    padding: 100px 200px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+  }
+  .contact h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    text-shadow: 3px 3px 3px rebeccapurple;
+    margin-bottom: 10px;
+    
+  }
+  .contact p{
+    line-height: 26px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    }
+    .contact button{
+      width: 171px;
+      height: 47px;
+      background: #ff2b85;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+    }
+
+    footer a{
+     text-decoration: none;
+    }
+    footer ul li{
+      list-style: none;
+    }
+    footer {
+      width: 100%;
+      background: black;
+      color: #fff;
+      padding: 52px 0;
+    }
+    .footersection {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 80px;
+    }
+    
+.footersection h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.footersection .footerlogo a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.footersection .usefullinks {
+  text-align: center;
+  
+}
+.footersection .usefullinks ul li {
+  margin: 10px 0;
+ 
+}
+.footersection .usefullinks ul li a {
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  text-transform: capitalize;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  transition: all .50s ease;
+   
+}
+
+.footersection .usefullinks ul li a:hover {
+  text-decoration: underline;
+  color: rgb(241, 149, 243);
+  transform: translate(-3px) translate(-5px);
+}
+.footersection .contact_us ul li {
+  margin: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  
+}
+.footersection .contact_us h3{
+  margin-left: 10px;
+  font-style: normal;
+  
+
+}
+.footersection .followus i {
+  font-size: 20px;
+  cursor: pointer;
+}

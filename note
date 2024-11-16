@@ -1,0 +1,30 @@
+margin: top,right,bootom,left 
+margin:       50px,  40px;
+         top,bootom; left,right;
+
+     margin also provide space, use for top,:right,button,:left;    
+
+
+         text-align:justify; means- words sai karta hai;
+        /* comment Css hllo */
+        comment html<!--hllo-->
+
+
+            padding - under sa kaam karti hai;
+           margin- bhar sa kaam karta hai;
+
+        box-sizing : border box = means , padding ka liya jisa usi width badh thi hai uski;
+
+        border box- means width nhi badthi paddimg ki;
+
+        text-transform: uppercase; means - bada letters they can do;
+
+
+
+        float- we can use for (sidha karna ka liya ),:left,:right we can do;
+
+
+        napebar,upper hota hai ;
+        futtor, nicha hota hai;
+
+        href= anker teck;

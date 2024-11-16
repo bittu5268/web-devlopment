@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+nav{
+    background: #ff8800;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0px 111px;
+    gap: 35px;
+    position: fixed;
+}
+nav .logo{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    background: #e67a00;
+    padding: 20px;
+}
+nav .logo a{
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    box-shadow: inset 0 -2px 0 #fff;
+    line-height: 56px;
+}
+.menu a{
+    
+     font-size: 15px;
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+}
+.banner{
+    background: url(https://bestschool.net.in/templates/purity_iii/images/bg.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+}
+.banner .c{
+    padding: 100px;
+}
+.banner .c input{
+    width: 600px;
+    height: 38px;
+    background: rgba(0,0,0,7) none repeat scroll 0 0;
+    border: medium;
+
+    font-size: 17px;
+    padding-left: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px whitesmoke;
+    margin-top: 14px;
+    outline: none;
+    color: white;
+}
+ ::placeholder{
+    color: white;
+ }
+ 
+ .space{
+     padding: 40px 80px;
+
+ }
+ .d{
+    /* border: 2px solid; */
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    padding: 4px;
+    /* line-height:; */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+
+
+ }
+ .d img{
+    width: 100%;
+    height: 100%;
+ }
+ .d h1{
+    text-align: center;
+    margin-top: -39px;
+    color: white;
+    font-family: cursive;
+ }
+
+
+ 
